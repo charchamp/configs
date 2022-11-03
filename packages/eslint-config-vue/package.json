@@ -1,0 +1,41 @@
+{
+  "name": "@sawn/eslint-config-vue",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "homepage": "https://github.com/sawndev/tree/main/packages/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/sawndev/tree/main/packages/eslint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sawndev/tree/main/packages/eslint-config.git"
+  },
+  "author": "sawn <hi@sawn.dev> (https://sawn.dev)",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "vue": "^2.0.0 || ^3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "vue": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@sawn/eslint-config-ts": "workspace:*",
+    "eslint-define-config": "^1.7.0",
+    "eslint-plugin-vue": "^9.6.0",
+    "local-pkg": "^0.4.2"
+  },
+  "devDependencies": {
+    "eslint": "8.25.0"
+  }
+}
