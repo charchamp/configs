@@ -1,0 +1,42 @@
+{
+  "name": "configs",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "^pnpm@7.13.0",
+  "description": "personal configs",
+  "keywords": [
+    "pnpm",
+    "monorepo",
+    "configs",
+    "prettier"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/sawndev/configs#readme",
+  "bugs": "https://github.com/sawndev/configs/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sawndev/configs.git"
+  },
+  "author": "sawn <hi@sawn.dev> (https://sawn.dev)",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "build": "turbo run build",
+    "dev": "turbo run dev --no-cache --parallel --continue",
+    "clean": "turbo run clean && rm -rf node_modules",
+    "changeset": "changeset",
+    "version": "changeset version",
+    "release": "changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.4.7",
+    "@changesets/cli": "^2.25.0",
+    "turbo": "^1.5.6"
+  },
+  "engines": {
+    "node": ">=16",
+    "pnpm": ">=6"
+  }
+}
