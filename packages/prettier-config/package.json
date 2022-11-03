@@ -1,12 +1,14 @@
 {
   "name": "@sawn/prettier-config",
   "version": "0.0.1",
+  "packageManager": "pnpm@7.13.4",
   "description": "Shared Prettier configuration file.",
   "keywords": [
     "prettier",
     "configuration",
     "config"
   ],
+  "license": "MIT",
   "homepage": "https://github.com/sawndev/tree/main/packages/prettier-config#readme",
   "bugs": {
     "url": "https://github.com/sawndev/tree/main/packages/prettier-config/issues"
@@ -15,25 +17,23 @@
     "type": "git",
     "url": "https://github.com/sawndev/tree/main/packages/prettier-config.git"
   },
-  "license": "MIT",
   "author": "sawn <hi@sawn.dev>",
-  "main": ".prettierrc",
   "files": [
-    ".prettierrc",
+    ".prettierrc.json",
     "package.json",
     "README.md"
   ],
-  "devDependencies": {
-    "prettier-plugin-tailwindcss": "^0.1.13"
+  "main": ".prettierrc.json",
+  "publishConfig": {
+    "access": "public"
   },
   "peerDependencies": {
     "prettier": "^2.2.1"
   },
-  "packageManager": "pnpm@7.13.4",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.1.13"
+  },
   "engines": {
     "node": ">=14.16.0"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }
