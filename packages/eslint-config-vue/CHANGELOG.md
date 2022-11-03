@@ -1,5 +1,14 @@
 # @sawn/eslint-config-vue
 
+## 0.0.2
+
+### Patch Changes
+
+- [`24c43fb`](https://github.com/sawndev/configs/commit/24c43fb62a266c10d2d4fbf087dda67aac143f33) Thanks [@sawndev](https://github.com/sawndev)! - update
+
+- Updated dependencies [[`24c43fb`](https://github.com/sawndev/configs/commit/24c43fb62a266c10d2d4fbf087dda67aac143f33)]:
+  - @sawn/eslint-config-ts@0.0.2
+
 ## 0.0.1
 
 ### Patch Changes
