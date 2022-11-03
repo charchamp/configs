@@ -1,6 +1,6 @@
 {
   "name": "@sawn/tsconfig",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Shared tsconfig file.",
   "keywords": [
     "ts",
