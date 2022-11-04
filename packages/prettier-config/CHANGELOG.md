@@ -1,5 +1,11 @@
 # @sawn/prettier-config
 
+## 0.0.3
+
+### Patch Changes
+
+- [`ee83845`](https://github.com/sawndev/configs/commit/ee838457ec10796b77ba79790d1ec93185e12bc4) Thanks [@sawndev](https://github.com/sawndev)! - rm plugin
+
 ## 0.0.2
 
 ### Patch Changes
