@@ -104,10 +104,7 @@ importers:
       eslint: 8.25.0
 
   packages/prettier-config:
-    specifiers:
-      prettier-plugin-tailwindcss: ^0.1.13
-    devDependencies:
-      prettier-plugin-tailwindcss: 0.1.13
+    specifiers: {}
 
   packages/tsconfig:
     specifiers: {}
@@ -2299,13 +2296,6 @@ packages:
     dependencies:
       fast-diff: 1.2.0
     dev: false
-
-  /prettier-plugin-tailwindcss/0.1.13:
-    resolution: {integrity: sha512-/EKQURUrxLu66CMUg4+1LwGdxnz8of7IDvrSLqEtDqhLH61SAlNNUSr90UTvZaemujgl3OH/VHg+fyGltrNixw==}
-    engines: {node: '>=12.17.0'}
-    peerDependencies:
-      prettier: '>=2.2.0'
-    dev: true
 
   /prettier/2.7.1:
     resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==}
