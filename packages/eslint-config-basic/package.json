@@ -1,0 +1,39 @@
+{
+  "name": "@charchamp/eslint-config-basic",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "homepage": "https://github.com/charchamp/tree/main/packages/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/charchamp/tree/main/packages/eslint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charchamp/tree/main/packages/eslint-config.git"
+  },
+  "author": "Charlie <hi@charchamp.cc> (https://charchamp.cc)",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "eslint-define-config": "^1.7.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsonc": "^2.4.0",
+    "eslint-plugin-markdown": "^3.0.0",
+    "eslint-plugin-unicorn": "^44.0.2",
+    "eslint-plugin-yml": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.25.0"
+  }
+}

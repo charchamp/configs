@@ -1,0 +1,47 @@
+{
+  "name": "configs",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "^pnpm@7.14.0",
+  "description": "personal configs",
+  "keywords": [
+    "pnpm",
+    "monorepo",
+    "configs",
+    "prettier"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/charchamp/configs#readme",
+  "bugs": "https://github.com/charchamp/configs/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charchamp/configs.git"
+  },
+  "author": "Charlie <hi@charchamp.cc> (https://charchamp.cc)",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "build": "turbo run build",
+    "dev": "turbo run dev --no-cache --parallel --continue",
+    "clean": "turbo run clean && rm -rf node_modules",
+    "lint": "eslint . --ext .js,.ts,.json,.json5,.vue,.md --fix",
+    "changeset": "changeset",
+    "version": "changeset version",
+    "release": "changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.4.7",
+    "@changesets/cli": "^2.25.0",
+    "@charchamp/eslint-config": "workspace:*",
+    "@charchamp/prettier-config": "workspace:*",
+    "eslint": "^8.26.0",
+    "prettier": "^2.7.1",
+    "turbo": "^1.5.6"
+  },
+  "engines": {
+    "node": ">=16",
+    "pnpm": ">=6"
+  }
+}

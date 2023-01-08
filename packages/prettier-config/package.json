@@ -1,0 +1,36 @@
+{
+  "name": "@charchamp/prettier-config",
+  "version": "0.0.0",
+  "packageManager": "^pnpm@7.14.0",
+  "description": "Shared Prettier configuration file.",
+  "keywords": [
+    "prettier",
+    "configuration",
+    "config"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/charchamp/tree/main/packages/prettier-config#readme",
+  "bugs": {
+    "url": "https://github.com/charchamp/tree/main/packages/prettier-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/charchamp/tree/main/packages/prettier-config.git"
+  },
+  "author": "Charlie <hi@charchamp.cc> (https://charchamp.cc)",
+  "files": [
+    ".prettierrc.json",
+    "package.json",
+    "README.md"
+  ],
+  "main": ".prettierrc.json",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "prettier": "^2.2.1"
+  },
+  "engines": {
+    "node": ">=14.16.0"
+  }
+}

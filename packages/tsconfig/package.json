@@ -1,0 +1,31 @@
+{
+  "name": "@charchamp/tsconfig",
+  "version": "0.0.0",
+  "description": "Shared tsconfig file.",
+  "keywords": [
+    "ts",
+    "typescript",
+    "tsconfig",
+    "config",
+    "configuration"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/charchamp/tree/main/packages/tsconfig/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/charchamp/tree/main/packages/tsconfig.git"
+  },
+  "author": "Charlie <hi@charchamp.cc> (https://charchamp.cc)",
+  "files": [
+    "base.json"
+  ],
+  "main": "base.json",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
